@@ -48,7 +48,7 @@ def main():
     # As a gut check, we are printing the keys that were added to the
     # index in order.
     print(bst_index.get_keys_in_order())
-
+    print(bst_index.search(key = "article"))
     # quick demo of how to use the timing decorator included
     # in indexer.util
     loopy_loop()
